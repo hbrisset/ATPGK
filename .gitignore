@@ -1,0 +1,56 @@
+# Ignore build artifacts and compiled binaries
+build/
+bin/
+*.o
+*.out
+*.app
+*.exe
+
+# Ignore Output directory
+out/
+
+# Ignore python script
+*.py
+
+# Ignore personnal directory
+perso/
+
+# Ignore object files and libraries
+*.so
+*.a
+*.dll
+
+# Ignore VSCode files
+.vscode/
+
+# Ignore CMake presets
+CMakeUserPresets.json
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore Visual Studio files
+*.sdf
+*.opensdf
+*.suo
+*.sdf
+*.suo
+*.user
+*.vcxproj
+*.vcxproj.filters
+*.pdb
+
+# Ignore Clang-format files
+.clang-format
+
+# Ignore doxygen files
+doc/
+!resources/doc
+
+# Ignore custom build output directories
+output/
